@@ -1,0 +1,12 @@
+---
+builder_packages:
+- build-base
+- ruby
+- ruby-dev
+- nodejs
+- nodejs-npm
+- libsass
+- libsass-dev
+- libffi
+- libffi-dev
+- postgresql-dev
