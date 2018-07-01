@@ -1,5 +1,6 @@
 ---
 builder_packages:
+- bash
 - build-base
 - ruby
 - ruby-dev
