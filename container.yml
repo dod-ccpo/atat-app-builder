@@ -10,12 +10,4 @@ services:
     from: python:3.6.5-alpine
     roles:
       - atat.builder
-  # web:
-  #   from: "centos:7"
-  #   ports:
-  #     - "80:80"
-  #   command: ["/usr/bin/dumb-init", "/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
-  #   dev_overrides:
-  #     environment:
-  #       - "DEBUG=1"
 registries: {}
