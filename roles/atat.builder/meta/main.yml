@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Devon Mackay
+  description: Creates a build environment suitable for ATAT applications
+  company: Defense Digital Service
+
+  license: MIT
+
+  min_ansible_version: 1.2
+  min_ansible_container_version: 0.9.2
+
+  platforms:
+  - name: Alpine
+    versions:
+    - 3.5
+    - 3.6
+    - 3.7
+
+  galaxy_tags: []
+
+dependencies: []

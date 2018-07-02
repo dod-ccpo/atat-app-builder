@@ -1,0 +1,3 @@
+---
+# Default root directory for apps
+app_root_dir: /opt/atat
