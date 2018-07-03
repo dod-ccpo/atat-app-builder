@@ -28,6 +28,11 @@
     name: pip
     state: latest
 
+# Display Python packages to be installed
+- name: Show selected Python packages
+  debug:
+    msg: "Packages: {{ python_packages | join(', ') }}"
+
 # Install Python packages
 - name: Install Python packages
   pip:

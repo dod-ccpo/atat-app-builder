@@ -1,9 +1,16 @@
 ---
+# Update apk cache and existing system packages
 - name: "Alpine Setup: Ensure image is up-to-date"
   apk:
     update_cache: yes
     upgrade: yes
 
+# Display system packages to be installed
+- name: Show selected system packages
+  debug:
+    msg: "Packages: {{ builder_packages | join(', ') }}"
+
+# Install system packages
 - name: "Alpine Setup: Install builder packages"
   apk:
     name: "{{ builder_packages }}"
