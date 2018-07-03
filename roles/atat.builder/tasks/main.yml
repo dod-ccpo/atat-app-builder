@@ -16,7 +16,7 @@
     group: root
 
 # Install the sass gem
-- name: Install SASS
+- name: Install SASS gem
   gem:
     name: sass
     state: present
@@ -28,9 +28,14 @@
     name: pip
     state: latest
 
-# Install PipEnv
-- name: Install PipEnv
+# Display Python packages to be installed
+- name: Show selected Python packages
+  debug:
+    msg: "Packages: {{ python_packages | join(', ') }}"
+
+# Install Python packages
+- name: Install Python packages
   pip:
     executable: pip3.6
-    name: pipenv
+    name: "{{ python_packages }}"
     state: latest

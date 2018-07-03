@@ -2,12 +2,12 @@
 builder_packages:
 - bash
 - build-base
-- ruby
-- ruby-dev
-- nodejs
-- nodejs-npm
-- libsass
-- libsass-dev
 - libffi
 - libffi-dev
+- libsass
+- libsass-dev
+- nodejs
+- nodejs-npm
 - postgresql-dev
+- ruby
+- ruby-dev
