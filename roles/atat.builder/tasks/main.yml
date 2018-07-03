@@ -28,9 +28,9 @@
     name: pip
     state: latest
 
-# Install PipEnv
-- name: Install PipEnv
+# Install Python packages
+- name: Install Python packages
   pip:
     executable: pip3.6
-    name: pipenv
+    name: "{{ python_packages }}"
     state: latest
