@@ -16,7 +16,7 @@
     group: root
 
 # Install the sass gem
-- name: Install SASS
+- name: Install SASS gem
   gem:
     name: sass
     state: present

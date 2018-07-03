@@ -1,10 +1,10 @@
 ---
-- name: Ensure image is up-to-date
+- name: Alpine Setup: Ensure image is up-to-date
   apk:
     update_cache: yes
     upgrade: yes
 
-- name: Install builder packages
+- name: Alpine Setup: Install builder packages
   apk:
     name: "{{ builder_packages }}"
     state: latest
