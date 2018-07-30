@@ -8,6 +8,7 @@ builder_packages:
 - libsass-dev
 - nodejs
 - nodejs-npm
+- postgresql-client
 - postgresql-dev
 - ruby
 - ruby-dev
