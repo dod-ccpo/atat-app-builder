@@ -7,8 +7,8 @@ builder_packages:
 - libsass
 - libsass-dev
 - nodejs
-- nodejs-npm
 - postgresql-client
 - postgresql-dev
 - ruby
 - ruby-dev
+- yarn
