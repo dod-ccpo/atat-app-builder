@@ -6,6 +6,7 @@ builder_packages:
 - libffi-dev
 - libsass
 - libsass-dev
+- util-linux
 - nodejs
 - postgresql-client
 - postgresql-dev
