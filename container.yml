@@ -7,7 +7,7 @@ settings:
 
 services:
   builder:
-    from: python:3.6.5-alpine
+    from: alpine:3.8
     roles:
       - atat.builder
 registries: {}
