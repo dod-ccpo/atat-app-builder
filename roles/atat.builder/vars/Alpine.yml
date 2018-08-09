@@ -6,10 +6,10 @@ builder_packages:
 - libffi-dev
 - libsass
 - libsass-dev
-- util-linux
 - nodejs
 - postgresql-client
 - postgresql-dev
-- ruby
-- ruby-dev
+- python3
+- python3-dev
+- util-linux
 - yarn

@@ -7,20 +7,6 @@
 - name: Run OS-specific setup tasks
   include_tasks: "setup-{{ ansible_os_family }}.yml"
 
-# Add a gemrc file
-- name: Add gemrc
-  copy:
-    src: gemrc
-    dest: /root/.gemrc
-    owner: root
-    group: root
-
-# Install the sass gem
-- name: Install SASS gem
-  gem:
-    name: sass
-    state: present
-
 # Ensure Pip is up-to-date
 - name: Update Pip
   pip:
