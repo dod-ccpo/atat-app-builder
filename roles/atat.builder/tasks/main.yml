@@ -25,3 +25,9 @@
     executable: pip3.6
     name: "{{ python_packages }}"
     state: latest
+
+- name: Add Python binary symlink
+  file:
+    src: /usr/bin/python3
+    dest: /usr/bin/python
+    state: link
