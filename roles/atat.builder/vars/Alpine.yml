@@ -2,7 +2,7 @@
 builder_packages:
 - bash
 - build-base
-- ca-certificates-20171114-r3
+- ca-certificates
 - git
 - gzip
 - libffi
@@ -15,6 +15,7 @@ builder_packages:
 - postgresql-dev
 - python3
 - python3-dev
+- rsync
 - sudo
 - tar
 - util-linux
