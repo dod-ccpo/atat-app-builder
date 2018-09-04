@@ -2,14 +2,21 @@
 builder_packages:
 - bash
 - build-base
+- ca-certificates
+- git
+- gzip
 - libffi
 - libffi-dev
 - libsass
 - libsass-dev
 - nodejs
+- openssh-client
 - postgresql-client
 - postgresql-dev
 - python3
 - python3-dev
+- rsync
+- sudo
+- tar
 - util-linux
 - yarn
