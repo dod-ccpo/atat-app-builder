@@ -3,6 +3,7 @@ builder_packages:
 - bash
 - build-base
 - ca-certificates
+- docker
 - git
 - gzip
 - libffi
