@@ -2,6 +2,7 @@
 builder_packages:
 - bash
 - build-base
+- curl
 - ca-certificates
 - docker
 - git
@@ -12,6 +13,7 @@ builder_packages:
 - libsass-dev
 - nodejs
 - openssh-client
+- openssl
 - postgresql-client
 - postgresql-dev
 - python3
