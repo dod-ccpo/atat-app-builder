@@ -44,3 +44,9 @@
     url: "https://storage.googleapis.com/kubernetes-release/release/{{ kubectl_version_response.content | trim }}/bin/linux/amd64/kubectl"
     dest: /usr/bin
     mode: 0755
+
+- name: Create root dir for apps
+  file:
+    path: /opt/atat
+    state: directory
+    mode: 0755
